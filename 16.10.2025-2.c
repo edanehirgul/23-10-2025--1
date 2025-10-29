@@ -1,16 +1,16 @@
 #include <stdio.h> 
-
+#define _USE_MATH_DEFINES
+#include <math.h>
 //  Function defiinition for f begins here
 
 float f (float x) {
-    
-    
+       
 return(x*x*x-2*x)/5; // result is calculated and returned in the same row 
 
-// Another way to do the same way
+
 
 /*
-
+// Another way to do the same way
  Float result;
  result= (x*x*x-2*x)/5.0;
  return result;

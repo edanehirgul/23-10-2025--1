@@ -1,24 +1,28 @@
-/******************************************************************************
-
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
+//g(y)=(∛f(x)/(tan(rad135)+y)
+#define _USE_MATH_DEFINES
 #include <stdio.h>
 #include <math.h>
 
-//  Function defiinition for f begins here
+float f(float x)
+{
+    return(x*x*x-2*x)/5.0;
+}
 
-double g(double f(x), double y,double x){
-    double rad135=135.0*M_PI/180.0;
-    double result;
-    result = (∛f(x)/(tan(rad135)+y,);
+float g(float x, float y)
+{
+
+float rad135=135.0*M_PI/180.0;
+float resultF=f(x);
+float result=(pow(resultF,1.0/3.0))/(tan(rad135)+y);
+return result;
+}
+
     
-Float result;
- result= (x*x*x-2*x)/5.0;
- return result;
+int main(){
+    float x=2.5, y=-2.5;
+    printf("The result is %f", g(x,y));
+    return 0;
+}
  
  
     

@@ -36,7 +36,7 @@ int main()
     printf("long long signed integer:%%lld -> %> %lld\n", ll);
     printf("long unsigned integer:%%lu -> %> %lu\n", ul);
     printf("long long unsigned integer:%%lld -> %> %lld \n", ll);
-    
+  
     
 
 
