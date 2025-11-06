@@ -31,7 +31,29 @@ printf("a>b: %d\n" , a>b);
 printf("a<b: %d\n" , a<b);
 printf("a>=b: %d\n" , a>=b);
 printf("a<=b: %d\n" , a<=b);
-   return 0;
+  
+// Logical Operators
+
+int x=5, y=0;
+
+printf("===Logical Operators===\n");
+
+printf("(a>b) && (x>0): %d\n", (a>b) && (x>0));
+printf("(a<b) || (y>0): %d\n", (a<b) && (y>0));
+printf("!(x>0): %d\n\n",!(x>0));
+
+
+//Assignment Operators
+
+int c=10; // initalize C
+printf("===Assignment Operators===\n");
+printf("initalize c= %d\n",c);
+c +=5; //c=c+5 Add and Assignment
+printf("Ater c+=5, c= %d\n", c);
+c -=3; //c=c-3 Substract and Assignment
+printf("Ater c-=3, c= %d\n", c);
+
+return 0;
 }
 
    
