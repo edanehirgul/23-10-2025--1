@@ -5,12 +5,14 @@ int CanVote (int age, char citizen){
 
 		if(citizen=='y'||citizen =='Y') {
 			return 1;
+		}5
+		else{
+			return 0;
 		}
 	}
 	else {
 		return 0;
 	}
-
 }
 
 int main() {
