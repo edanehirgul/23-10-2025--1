@@ -12,7 +12,7 @@ int main(){
 {
     while(1)
     {
-        printf("Tahminin nedir?: ");
+        printf("Tahminin nedir? (1 ve 10 arasında olmalı): ");
         scanf("%d", &tahmin);
 
         if(tahmin==gizlisayı){
