@@ -6,7 +6,7 @@ int main(){
    
  int gizlisayı=5;
  int tahmin ;
- printf("Sayı tahmin oyununa hoşgeldin");
+ printf("Sayı tahmin oyununa hosgeldin.\n");
 
  
 {
@@ -16,9 +16,10 @@ int main(){
         scanf("%d", &tahmin);
 
         if(tahmin==gizlisayı){
-            printf("Tebrikler! Bildinnnn slay. \n");
-
+            printf("Tebrikler! Bildinnnn . \n");
+            break;
         }
+       
         else { 
             printf("Yanlış :( Tekrar dene. \n");
 
