@@ -15,9 +15,9 @@ int main()
     printf("Ucgenin tabanı: \n");
     scanf("%f", &y);
 
-    float alan;
 
-    printf("Üçgenin Alanı: %f\n" , alan);
+    printf("Üçgenin Alanı: %f\n" ,UcgenAlan(x,y));
     return 0;
 
 } 
+
